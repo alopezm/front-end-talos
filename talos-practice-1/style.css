@@ -10,6 +10,7 @@ div{box-sizing: border-box;}
 .container h2,
 .intro p{font-family: 'raleway', sans-serif; font-weight: 100;  font-style: normal;}
 
+.intro h1,
 .list li:nth-child(2n+3),
 .upper-first-letter p::first-letter{font-family: 'raleway', sans-serif; font-weight: bold;  font-style: normal;}
 
