@@ -3,12 +3,13 @@ div{box-sizing: border-box;}
 /* Fonts */
 *,
 .container p,
-.container li,
-.upper-first-letter .header p::first-letter{font-family: 'raleway', sans-serif; font-weight: normal;  font-style: normal;}
+.container li{font-family: 'raleway', sans-serif; font-weight: normal;  font-style: normal;}
 
 .container h1,
 .container h2,
-.intro p{font-family: 'raleway', sans-serif; font-weight: 100;  font-style: normal;}
+.intro p,
+.header p,
+.upper-first-letter .header p::first-letter{font-family: 'raleway', sans-serif; font-weight: 100;  font-style: normal;}
 
 .intro h1,
 .list li:nth-child(2n+3),
