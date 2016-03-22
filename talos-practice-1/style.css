@@ -1,0 +1,47 @@
+div{box-sizing: border-box;}
+
+.blue{background-color: rgb(104, 175, 195);}
+.white{background-color: rgba(255, 255, 255, 0.85);}
+.transparent{background-color: transparent;}
+.yellow{background-color: rgba(219, 230, 118, 0.85);}
+.dark-blue{background-color: rgba(16, 16, 35, 0.85);}
+.pink{background-color: rgba(209, 26, 56, 0.85);}
+.red{background-color: rgb(209, 26, 56);}
+.light-green{background-color: #caded0;}
+
+.over1{z-index: 100; position: relative;}
+.over2{z-index: 200; position: relative;}
+
+.upper-first-letter p::first-letter{ font-weight: bolder; text-transform: uppercase;}
+
+.container hr{border-color: #d11a38; margin: 0;}
+
+.margin-t-l{margin-top: 80px;}
+.padding-m{padding: 40px;}
+.float-left{float: left;}
+
+.header{display: block;}
+.header h1{color: white; margin: 0; padding: 10px 15px; display: inline-block;}
+
+.intro{color: white;}
+.uppercase p, p.uppercase{text-transform: uppercase;}
+
+.width-m{width: 55%;}
+.width5{width: 50%;}
+.width7{width: 70%;}
+.width3{width: 30%;}
+.container{position: relative;}
+.dark-blue{width: 40%; position: absolute;  top: 0;  right: 0; height: 100%;}
+
+.list{margin-top: 80px; position: relative; left: -40px; padding-bottom: 80px;}
+.list-clear ul{list-style-type: none;  padding-left:0;}
+.list li{margin-bottom: 10px;}
+.list li:nth-child(2n+3) {font-weight: bolder;}
+
+.clear-float{clear: both;}
+
+.the-road{position: relative; left: -80px; padding-left: 80px; margin-bottom: 120px;}
+.lenguajes{padding: 20px 40px;}
+.lenguajes ul{margin: 0;}
+.lenguajes li{display: inline-block; text-decoration: underline; margin-right: 20px;}
+.so-what, .participation{color: white;}
