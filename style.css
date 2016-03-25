@@ -36,6 +36,19 @@ p{
 a{
     font: normal normal 16px/16px 'vonique64', 'sans-serif';
 }
+a:link {
+    color: #000;
+}
+a:visited {
+    color: rgba(136, 139, 142, 0.28);
+}
+a:hover {
+    color: rgba(0, 0, 0, 0.35);
+}
+a:active {
+    color: rgba(25, 26, 27, 0.28);
+}
+
 
 h1,
 h2,
@@ -52,7 +65,7 @@ h1{
 
 h2,
 h2 a{
-    font: normal normal 22px/22px 'vonique64', 'sans-serif';
+    font: normal bold 22px/22px 'vonique64', 'sans-serif';
 }
 
 footer .name{
