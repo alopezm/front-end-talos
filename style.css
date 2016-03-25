@@ -29,9 +29,12 @@ footer{
     padding: 30px 20px 30px;
 }
 
-a,
 p{
     font: 20px/20px 'serif';
+}
+
+a{
+    font: normal normal 16px/16px 'vonique64', 'sans-serif';
 }
 
 h1,
@@ -67,6 +70,7 @@ footer .name .year{
     margin-bottom: 80px;
 }
 
+.options li:last-child:after
 .img-container .img-wrapper:last-child:after {
     content: '';
     clear: both;
@@ -114,4 +118,13 @@ and (max-width : 550px) {
     font-size: 23px;
     line-height: 23px;
     color: white;
+}
+
+.options li{
+    float: left;
+    margin-right: 10px;
+    list-style: none;
+}
+.options .fa{
+    margin-right: 10px;
 }
