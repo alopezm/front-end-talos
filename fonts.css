@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'vonique64';
+    src: url('fonts/vonique64/Vonique_64.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vonique64';
+    src: url('fonts/vonique64/Vonique_64_Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'vonique64';
+    src: url('fonts/vonique64/Vonique_64_Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'vonique64';
+    src: url('fonts/vonique64/Vonique_64_Bold_Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+}
