@@ -3,7 +3,8 @@ div{box-sizing: border-box;}
 /* Fonts */
 *,
 .container p,
-.container li{font-family: 'raleway', sans-serif; font-weight: normal;  font-style: normal;}
+.container li,
+.container a{font-family: 'raleway', sans-serif; font-weight: normal;  font-style: normal;}
 
 .container h1,
 .container h2,
@@ -42,9 +43,20 @@ div{box-sizing: border-box;}
 
 .clear-float{clear: both;}
 
+a:link,
+a:visited,
+a:hover,
+a:active,
+a{
+    padding-bottom: 5px;
+    border-bottom: 1px solid aliceblue;
+    text-decoration: none !important;
+    color: aliceblue;
+}
+
 /* Others */
 .container{position: relative;}
-.container hr{border-color: #d11a38; margin: 0;}
+.line{border-width: 1px 0 0 0; border-style: solid; border-color: #d11a38;}
 
 .list{margin-top: 80px; position: relative; left: -40px; padding-bottom: 80px;}
 .list-clear ul{list-style-type: none;  padding-left:0;}
@@ -53,7 +65,7 @@ div{box-sizing: border-box;}
 .the-road{position: relative; margin-left: -80px; padding-left: 80px; margin-bottom: 120px;}
 .lenguajes{padding: 20px 40px;}
 .lenguajes ul{margin: 0;}
-.lenguajes li{display: inline-block; text-decoration: underline; margin-right: 20px;}
+.lenguajes li{display: inline-block; margin-right: 20px;}
 .so-what, .participation{color: white;}
 
 .intro{color: white;}
